@@ -5,6 +5,8 @@ ehthumbs.db
 #KiCad Backup file directory
 *-backups
 fp-info-cache
+*auto_saved_files#
+*_autosave-*
 
 #Eagle Backup files
 *.s#?
