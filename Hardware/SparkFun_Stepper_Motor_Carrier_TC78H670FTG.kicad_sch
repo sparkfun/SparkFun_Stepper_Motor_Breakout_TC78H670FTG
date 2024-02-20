@@ -4015,6 +4015,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7428bb27-7f66-4758-b3e4-052ce03523be)
   )
+  (text "Power supply (VM) operating voltage: 2.5V to 16.0V\nOutput Current ratings: 2.0 A (max)\nLogic Level 5.5V tolerant\nLogic LOW Threshold: 0.7V\nLogic HIGH Threshold: 1.5V"
+    (at 127 40.64 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8d59e8c4-31e0-4256-afeb-66c078d47301)
+  )
 
   (global_label "A-" (shape input) (at 180.34 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
