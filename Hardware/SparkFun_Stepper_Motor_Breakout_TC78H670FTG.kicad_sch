@@ -5,7 +5,7 @@
   (paper "USLetter")
 
   (title_block
-    (title "SparkFun Stepper Motor Carrier TC78H670FTG")
+    (title "SparkFun Stepper Motor Breakout TC78H670FTG")
     (date "2024-02-16")
     (rev "v01")
   )
@@ -4297,7 +4297,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "G2") (unit 1)
         )
@@ -4321,7 +4321,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "FID4") (unit 1)
         )
@@ -4346,7 +4346,7 @@
     )
     (pin "1" (uuid 49a3d5bd-05f6-4a58-919c-b8601d3b87a1))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR05") (unit 1)
         )
@@ -4375,7 +4375,7 @@
     (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fca8))
     (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669dae))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R4") (unit 1)
         )
@@ -4404,7 +4404,7 @@
     (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fca9))
     (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669daf))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R5") (unit 1)
         )
@@ -4429,7 +4429,7 @@
     )
     (pin "1" (uuid 956e76f0-cd86-437c-a072-83a75dbb3a30))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR08") (unit 1)
         )
@@ -4454,7 +4454,7 @@
     )
     (pin "1" (uuid 1485fbeb-71b8-46dc-b5f4-5700f4edd7df))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR01") (unit 1)
         )
@@ -4479,7 +4479,7 @@
     )
     (pin "1" (uuid 0694bb15-9786-4a73-a962-261762b95711))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR014") (unit 1)
         )
@@ -4504,7 +4504,7 @@
     )
     (pin "1" (uuid 8cce47e2-dbe6-4a1c-beb7-4b78f21c0749))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR011") (unit 1)
         )
@@ -4533,7 +4533,7 @@
     (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fcaa))
     (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669db0))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R7") (unit 1)
         )
@@ -4562,7 +4562,7 @@
     (pin "1" (uuid cc7decdd-6a71-4d72-8f0d-cf9dbdc5a144))
     (pin "2" (uuid e4a2992a-1683-4bd2-9d2d-5803c7efdda4))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R1") (unit 1)
         )
@@ -4587,7 +4587,7 @@
     )
     (pin "1" (uuid 0ddf5207-ed7b-45d9-a0c2-7bdf248a5b39))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR06") (unit 1)
         )
@@ -4612,7 +4612,7 @@
     )
     (pin "1" (uuid 720e16ce-d9ba-4e7e-b5ac-0830be4bc880))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR012") (unit 1)
         )
@@ -4637,7 +4637,7 @@
     )
     (pin "1" (uuid a5ade99c-8b96-4a9b-b84f-2159ca4100b9))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR09") (unit 1)
         )
@@ -4662,7 +4662,7 @@
     )
     (pin "1" (uuid 1b0802b6-7ec8-4193-b683-970ee32d9d59))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR03") (unit 1)
         )
@@ -4686,7 +4686,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "ref**1") (unit 1)
         )
@@ -4711,7 +4711,7 @@
     )
     (pin "1" (uuid 1875e4fb-4a30-41b3-bcfd-578d01e4e02d))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR010") (unit 1)
         )
@@ -4740,7 +4740,7 @@
     (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fcab))
     (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669db1))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R8") (unit 1)
         )
@@ -4765,7 +4765,7 @@
     )
     (pin "1" (uuid c5a19ef9-2315-4f12-b805-e57a35885b79))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR02") (unit 1)
         )
@@ -4794,7 +4794,7 @@
     (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fcac))
     (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669db2))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R9") (unit 1)
         )
@@ -4829,7 +4829,7 @@
     (pin "2" (uuid 6b522cab-37c8-48b4-a68c-2447cbd5bb85))
     (pin "1" (uuid 2c65b651-50b0-4663-a193-c5b1bebf555c))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "C1") (unit 1)
         )
@@ -4853,7 +4853,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "FID3") (unit 1)
         )
@@ -4882,7 +4882,7 @@
     (pin "2" (uuid 612b38bc-1b81-4822-a56e-4490295017bf))
     (pin "1" (uuid b9d0807b-f97e-41d0-82ca-a94c6cb3cca7))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R3") (unit 1)
         )
@@ -4907,7 +4907,7 @@
     )
     (pin "1" (uuid 73719aa4-7550-4e2c-8b70-3c4f691777c5))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR015") (unit 1)
         )
@@ -4937,7 +4937,7 @@
     (pin "1" (uuid 8c760398-c778-4816-b05b-8a6c8e90e3c6))
     (pin "3" (uuid e533306e-265b-49dd-90f3-283782df5ae2))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "RV1") (unit 1)
         )
@@ -4961,7 +4961,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "G1") (unit 1)
         )
@@ -4996,7 +4996,7 @@
     (pin "1" (uuid ca3c3a69-6d6b-4747-b1bd-6b98a7627297))
     (pin "2" (uuid b0d045d3-0d84-402b-8c1a-6031f817eafe))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "C3") (unit 1)
         )
@@ -5021,7 +5021,7 @@
     )
     (pin "1" (uuid 35b833af-4220-40f6-a5a6-7895a377bea3))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR07") (unit 1)
         )
@@ -5053,7 +5053,7 @@
     (pin "4" (uuid 924a8594-b9d4-408a-a52d-f7f4ab10bace))
     (pin "6" (uuid 300448dd-1b0a-4a60-bcfa-3c041bc4dc50))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "J2") (unit 1)
         )
@@ -5097,7 +5097,7 @@
     (pin "2" (uuid 7d5d672e-2fdb-4716-bd22-822a1f1e8caf))
     (pin "3" (uuid 88a64e08-4f06-4271-bfe6-58cec3dd1e97))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "U1") (unit 1)
         )
@@ -5126,7 +5126,7 @@
     (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fcad))
     (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669db3))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R6") (unit 1)
         )
@@ -5150,7 +5150,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "FID2") (unit 1)
         )
@@ -5175,7 +5175,7 @@
     )
     (pin "1" (uuid 555aa3ab-4064-457c-b863-71f1d2613904))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR017") (unit 1)
         )
@@ -5200,7 +5200,7 @@
     )
     (pin "1" (uuid 280da3c3-c9b9-412d-8a0e-afe0fbda34b3))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR013") (unit 1)
         )
@@ -5225,7 +5225,7 @@
     )
     (pin "1" (uuid 0ad7130b-af8a-4116-be4f-3bd7dce20921))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "#PWR016") (unit 1)
         )
@@ -5249,7 +5249,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "FID1") (unit 1)
         )
@@ -5281,7 +5281,7 @@
     (pin "4" (uuid 924a8594-b9d4-408a-a52d-f7f4ab10bacf))
     (pin "6" (uuid 300448dd-1b0a-4a60-bcfa-3c041bc4dc51))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "J1") (unit 1)
         )
@@ -5316,7 +5316,7 @@
     (pin "2" (uuid 6da7bd5e-d5d1-48b4-9b08-20e31aa0ebdf))
     (pin "1" (uuid 6280414d-4cfa-4b4d-92c1-0d5efb0447f0))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "C2") (unit 1)
         )
@@ -5345,7 +5345,7 @@
     (pin "2" (uuid 06cc6fb1-451b-4dbf-87a6-b2218b6b60da))
     (pin "1" (uuid 003af370-97b9-4ca5-bbb0-df5260be30cd))
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "R2") (unit 1)
         )
@@ -5369,7 +5369,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SparkFun_Stepper_Motor_Carrier_TC78H670FTG"
+      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
           (reference "U2") (unit 1)
         )
