@@ -2060,13 +2060,13 @@
       )
     )
     (symbol "SparkFun-Aesthetic:Ordering_Instructions" (in_bom yes) (on_board yes)
-      (property "Reference" "U2" (at 0 2.54 0)
+      (property "Reference" "U" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "~" (at 0 0 0)
+      (property "Value" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "SparkFun-Aesthetic:ORDERING_INSTRUCTIONS" (at 0 -3.81 0)
+      (property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
@@ -3035,7 +3035,7 @@
       (property "Value" "Conn_01x08" (at 0 -12.7 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "SparkFun-Connector:1X08" (at 0 0 0)
+      (property "Footprint" "SparkFun-Connector:1x08" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
@@ -3801,25 +3801,13 @@
     (stroke (width 0) (type default))
     (uuid 4d041c27-34eb-4e61-ad5c-3fa614e14fba)
   )
-  (wire (pts (xy 109.22 170.18) (xy 106.68 170.18))
-    (stroke (width 0) (type default))
-    (uuid 4ec6a10a-b650-4f37-b1dd-16d5736d722b)
-  )
   (wire (pts (xy 237.49 143.51) (xy 234.95 143.51))
     (stroke (width 0) (type default))
     (uuid 5097bdfe-d428-47f5-89b3-992cdfa0643d)
   )
-  (wire (pts (xy 229.87 148.59) (xy 237.49 148.59))
-    (stroke (width 0) (type default))
-    (uuid 50d90367-6068-47cd-aba2-2cedf98d9f63)
-  )
   (wire (pts (xy 109.22 157.48) (xy 109.22 160.02))
     (stroke (width 0) (type default))
     (uuid 5318d88b-909e-4a9d-9dab-b9e3ccebc3aa)
-  )
-  (wire (pts (xy 229.87 151.13) (xy 237.49 151.13))
-    (stroke (width 0) (type default))
-    (uuid 5c53777b-bafb-44e9-bff9-2f35ec6a13e2)
   )
   (wire (pts (xy 132.08 147.32) (xy 132.08 149.86))
     (stroke (width 0) (type default))
@@ -3849,13 +3837,13 @@
     (stroke (width 0) (type default))
     (uuid 6ba7e4be-cdbc-4f26-82b2-b535899390dc)
   )
+  (wire (pts (xy 229.87 153.67) (xy 237.49 153.67))
+    (stroke (width 0) (type default))
+    (uuid 72f3cb53-3a8e-4347-b992-99654b8dc390)
+  )
   (wire (pts (xy 93.98 68.58) (xy 93.98 71.12))
     (stroke (width 0) (type default))
     (uuid 730f6694-9a92-4a70-a5da-869bb26dadcc)
-  )
-  (wire (pts (xy 229.87 146.05) (xy 237.49 146.05))
-    (stroke (width 0) (type default))
-    (uuid 756ddb58-144a-4363-a762-2aa70dff795b)
   )
   (wire (pts (xy 167.64 71.12) (xy 167.64 78.74))
     (stroke (width 0) (type default))
@@ -3880,10 +3868,6 @@
   (wire (pts (xy 199.39 143.51) (xy 201.93 143.51))
     (stroke (width 0) (type default))
     (uuid 81c7241b-d706-4d66-8589-6a840c9dffd0)
-  )
-  (wire (pts (xy 109.22 182.88) (xy 109.22 180.34))
-    (stroke (width 0) (type default))
-    (uuid 82596b1a-d55d-4d66-9f46-e82e40284433)
   )
   (wire (pts (xy 234.95 143.51) (xy 234.95 158.75))
     (stroke (width 0) (type default))
@@ -3947,6 +3931,10 @@
     (stroke (width 0) (type default))
     (uuid c09c8359-1f07-4264-a801-718de2648953)
   )
+  (wire (pts (xy 229.87 146.05) (xy 237.49 146.05))
+    (stroke (width 0) (type default))
+    (uuid c67a71a7-6075-448d-b04e-2a93476c4929)
+  )
   (wire (pts (xy 104.14 81.28) (xy 120.65 81.28))
     (stroke (width 0) (type default))
     (uuid c90d5f3b-d285-4fc0-8ae8-c25a27040a1c)
@@ -3979,9 +3967,9 @@
     (stroke (width 0) (type default))
     (uuid e371b324-3a1d-4f14-83b4-d4263f1d2929)
   )
-  (wire (pts (xy 109.22 170.18) (xy 109.22 172.72))
+  (wire (pts (xy 229.87 151.13) (xy 237.49 151.13))
     (stroke (width 0) (type default))
-    (uuid e3db38d2-1310-4394-bbd7-271f3982b520)
+    (uuid e513d925-e93a-4bf3-83c8-d75c8865ecd7)
   )
   (wire (pts (xy 106.68 162.56) (xy 116.84 162.56))
     (stroke (width 0) (type default))
@@ -4011,10 +3999,6 @@
     (stroke (width 0) (type default))
     (uuid f4322da0-26b9-4451-8cf6-6e8fdb222404)
   )
-  (wire (pts (xy 229.87 153.67) (xy 237.49 153.67))
-    (stroke (width 0) (type default))
-    (uuid f5ef23fc-3515-4da2-a3d7-1736f8209613)
-  )
   (wire (pts (xy 106.68 167.64) (xy 132.08 167.64))
     (stroke (width 0) (type default))
     (uuid f81f3038-dd28-4ed5-a236-26ea517e398a)
@@ -4030,6 +4014,10 @@
   (wire (pts (xy 175.26 83.82) (xy 175.26 81.28))
     (stroke (width 0) (type default))
     (uuid feed430e-0390-444b-a09b-10db6c3151e0)
+  )
+  (wire (pts (xy 229.87 148.59) (xy 237.49 148.59))
+    (stroke (width 0) (type default))
+    (uuid ffd60b31-0dd0-47eb-8c30-cef5c291a5a4)
   )
 
   (text "Current Control" (at 15.24 132.08 0)
@@ -4105,13 +4093,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "B-" (shape input) (at 229.87 151.13 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 327b8b98-db96-4143-b81a-35e8fd3e0698)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.0424 151.13 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "STEP" (shape input) (at 106.68 162.56 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3486563f-72cc-4d2b-9c0a-a5e6d2eb88ef)
@@ -4147,6 +4128,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "B+" (shape input) (at 229.87 146.05 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 53adfdbe-cf2e-49df-a665-737e72ef392a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.0424 146.05 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "~{STBY}" (shape input) (at 201.93 153.67 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5dbc2aa5-2519-4d6d-abbc-b1d26a97aa0a)
@@ -4159,13 +4147,6 @@
     (uuid 5fcac735-93b7-4471-8650-4874cabaec5c)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 58.3814 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "~{STBY}" (shape input) (at 106.68 170.18 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6e3c942d-0d29-4bb7-82f5-ed7aa61760bf)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.1591 170.18 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "MODE0" (shape input) (at 106.68 167.64 180) (fields_autoplaced)
@@ -4189,6 +4170,20 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "A-" (shape input) (at 229.87 151.13 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8c11a59b-50dd-4d0c-bfc9-cd9979f75a31)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.2238 151.13 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "A+" (shape input) (at 229.87 153.67 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8d3cb58b-80ec-4d3e-81f5-f1f19e26c12d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.2238 153.67 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "DIR" (shape input) (at 201.93 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8ec32a07-f2aa-422a-a1e4-43a35579e332)
@@ -4203,24 +4198,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "B-" (shape input) (at 229.87 148.59 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 91917e67-2d82-4444-b2f7-9c07bb3c4b0b)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.0424 148.59 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "MODE1" (shape input) (at 106.68 165.1 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 92f77d28-9419-40e7-aa27-5b918fda313f)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 97.2844 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "A-" (shape input) (at 229.87 148.59 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 94c46762-6a2d-4715-bbc6-059888837e63)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.2238 148.59 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "A+" (shape input) (at 229.87 146.05 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 95e17186-4c01-4cb4-bdac-cadf4ba0fde2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.2238 146.05 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4273,13 +4261,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "B+" (shape input) (at 229.87 153.67 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f5606336-a0c1-421d-a676-a65ee92e0765)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 224.0424 153.67 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "ERR" (shape input) (at 201.93 148.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f6bae20d-a21c-4d01-93c9-5b4a15fe8e76)
@@ -4291,7 +4272,7 @@
   (symbol (lib_id "SparkFun-Aesthetic:SparkFun_Logo") (at 213.36 114.3 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 0240ca97-52aa-4788-ae71-915a9621b937)
-    (property "Reference" "G2" (at 213.36 107.95 0)
+    (property "Reference" "G1" (at 213.36 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "SparkFun_Logo" (at 213.36 119.38 0)
@@ -4306,7 +4287,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "G2") (unit 1)
+          (reference "G1") (unit 1)
         )
       )
     )
@@ -4339,7 +4320,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:3.3V") (at 232.41 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 087c3484-e2cd-40b2-8df6-813e55a4b1cd)
-    (property "Reference" "#PWR05" (at 232.41 142.24 0)
+    (property "Reference" "#PWR0102" (at 232.41 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 232.41 133.35 0)
@@ -4355,7 +4336,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -4364,7 +4345,7 @@
   (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 109.22 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dd34994-b44b-4445-b078-8cf4d6974ac4)
-    (property "Reference" "R4" (at 107.9954 156.0107 0)
+    (property "Reference" "R5" (at 107.9954 156.0107 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 107.9954 148.0951 0)
@@ -4384,7 +4365,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4393,7 +4374,7 @@
   (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 116.84 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2404f1a4-9631-4db5-9b72-a78213317a22)
-    (property "Reference" "R5" (at 115.6157 156.1682 0)
+    (property "Reference" "R7" (at 115.6157 156.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 115.6551 148.3314 0)
@@ -4413,7 +4394,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4422,7 +4403,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 93.98 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2652f0b1-04a4-4251-b0f5-9f381bf43f74)
-    (property "Reference" "#PWR08" (at 93.98 77.47 0)
+    (property "Reference" "#PWR0109" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 76.2 0)
@@ -4438,7 +4419,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -4447,7 +4428,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 234.95 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ab6feaa-0dd4-47a8-9a31-db1ee1bc563a)
-    (property "Reference" "#PWR01" (at 234.95 167.64 0)
+    (property "Reference" "#PWR0101" (at 234.95 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 166.37 0)
@@ -4463,7 +4444,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -4472,7 +4453,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:3.3V") (at 124.46 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e77fd51-a62e-4f4b-86dc-915f27d6dac5)
-    (property "Reference" "#PWR014" (at 124.46 151.13 0)
+    (property "Reference" "#PWR0112" (at 124.46 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 124.46 142.24 0)
@@ -4488,32 +4469,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 109.22 182.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 31a87b0d-877b-4539-b54c-b451f28ef878)
-    (property "Reference" "#PWR011" (at 109.22 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 109.22 187.96 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8cce47e2-dbe6-4a1c-beb7-4b78f21c0749))
-    (instances
-      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
-        (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -4522,7 +4478,7 @@
   (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 132.08 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 346dc1f3-3aed-4f2a-af93-7cad03ebbdfd)
-    (property "Reference" "R7" (at 130.9422 156.0303 0)
+    (property "Reference" "R9" (at 130.9422 156.0303 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 130.8831 148.2329 0)
@@ -4542,7 +4498,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4580,7 +4536,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 44.45 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 378b0f1b-3b3f-4455-8567-c7de91911b1a)
-    (property "Reference" "#PWR06" (at 44.45 180.34 0)
+    (property "Reference" "#PWR0114" (at 44.45 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 179.07 0)
@@ -4596,7 +4552,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -4605,7 +4561,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:3.3V") (at 109.22 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b913a94-7a86-44d6-9be5-01f05b0d7ebf)
-    (property "Reference" "#PWR012" (at 109.22 151.13 0)
+    (property "Reference" "#PWR0116" (at 109.22 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 109.22 142.24 0)
@@ -4621,7 +4577,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -4630,7 +4586,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 73.66 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 402bd840-b0b1-4aee-a5e8-aedd90101ff7)
-    (property "Reference" "#PWR09" (at 73.66 74.93 0)
+    (property "Reference" "#PWR0108" (at 73.66 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 73.66 0)
@@ -4646,7 +4602,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -4655,7 +4611,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 167.64 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 420c9e85-806b-4de1-9a5a-dd0af23c94b9)
-    (property "Reference" "#PWR03" (at 167.64 92.71 0)
+    (property "Reference" "#PWR0107" (at 167.64 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 91.44 0)
@@ -4671,7 +4627,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -4704,7 +4660,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 175.26 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57e6333b-bd15-41d9-aed0-67c249c5b489)
-    (property "Reference" "#PWR010" (at 175.26 100.33 0)
+    (property "Reference" "#PWR0106" (at 175.26 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 99.06 0)
@@ -4720,36 +4676,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 109.22 176.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 589f66ed-298c-4c20-9edb-e7318b7a4e0f)
-    (property "Reference" "R8" (at 107.9828 178.9107 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 108.101 171.1133 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "SparkFun-Resistor:R_0603_1608Metric" (at 113.538 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 116.84 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PROD_ID" "RES-00824" (at 115.57 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ef6519b0-2964-45a5-9b33-f647adc3fcab))
-    (pin "2" (uuid 53c6258c-1cdf-49e6-b341-4f8f90669db1))
-    (instances
-      (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
-        (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R8") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -4758,7 +4685,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 121.92 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b645650-49d0-4596-9ff4-4b68d99195d5)
-    (property "Reference" "#PWR02" (at 121.92 90.17 0)
+    (property "Reference" "#PWR0103" (at 121.92 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 88.9 0)
@@ -4774,7 +4701,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -4783,7 +4710,7 @@
   (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 91.44 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5be32fb1-05ac-4da8-b448-94beacf6e475)
-    (property "Reference" "R9" (at 87.63 87.63 90)
+    (property "Reference" "R3" (at 87.63 87.63 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 92.71 87.63 90)
@@ -4803,7 +4730,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R9") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4812,7 +4739,7 @@
   (symbol (lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%") (at 93.98 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 616deef0-e52c-4d47-8106-6c77eb795ab9)
-    (property "Reference" "C1" (at 97.79 60.96 0)
+    (property "Reference" "C2" (at 97.79 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 97.79 63.5 0)
@@ -4838,7 +4765,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4847,7 +4774,7 @@
   (symbol (lib_id "SparkFun-Aesthetic:Fiducial_0.5mm") (at 255.27 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65b4d887-793c-424e-b49d-8b9f9fa5e3dc)
-    (property "Reference" "FID3" (at 255.27 176.53 0)
+    (property "Reference" "FID2" (at 255.27 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Fiducial_0.5mm" (at 255.27 181.61 0)
@@ -4862,7 +4789,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "FID3") (unit 1)
+          (reference "FID2") (unit 1)
         )
       )
     )
@@ -4871,7 +4798,7 @@
   (symbol (lib_id "SparkFun-Resistor:47k_0603") (at 175.26 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 673fb39f-1c87-46c2-87a8-ab099310316c)
-    (property "Reference" "R3" (at 177.8 86.36 90)
+    (property "Reference" "R10" (at 177.8 86.36 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (at 177.8 88.9 90)
@@ -4891,7 +4818,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4900,7 +4827,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:3.3V") (at 132.08 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aa34d84-df89-40d8-a650-975731d4f1a5)
-    (property "Reference" "#PWR015" (at 132.08 151.13 0)
+    (property "Reference" "#PWR0105" (at 132.08 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 132.08 142.24 0)
@@ -4916,7 +4843,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -4925,7 +4852,7 @@
   (symbol (lib_id "SparkFun-Resistor:Trimpot_10k_SMD_3.0x3.0mm") (at 44.45 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f1446cd-fbcf-4f22-af96-b071c2dc47fc)
-    (property "Reference" "R10" (at 41.91 166.37 90)
+    (property "Reference" "R2" (at 41.91 166.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 41.91 168.91 90)
@@ -4946,7 +4873,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R10") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4955,7 +4882,7 @@
   (symbol (lib_id "SparkFun-Aesthetic:OSHW_Logo") (at 254 111.76 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7313318a-72e9-400b-b94b-92adff00e076)
-    (property "Reference" "G1" (at 254 95.25 0)
+    (property "Reference" "G2" (at 254 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "OSHW_Logo" (at 254 120.65 0)
@@ -4970,7 +4897,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "G1") (unit 1)
+          (reference "G2") (unit 1)
         )
       )
     )
@@ -5014,7 +4941,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:3.3V") (at 44.45 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e1334c4-06b9-4dec-bfd3-b141e760806d)
-    (property "Reference" "#PWR07" (at 44.45 154.94 0)
+    (property "Reference" "#PWR0113" (at 44.45 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 44.45 146.05 0)
@@ -5030,7 +4957,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -5115,7 +5042,7 @@
   (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 124.46 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b958c308-aadc-4dcb-9190-fcbfdcd0a639)
-    (property "Reference" "R6" (at 123.2038 156.1485 0)
+    (property "Reference" "R8" (at 123.2038 156.1485 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 123.2038 148.1738 0)
@@ -5135,7 +5062,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R6") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5144,7 +5071,7 @@
   (symbol (lib_id "SparkFun-Aesthetic:Fiducial_0.5mm") (at 259.08 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baee03ad-1f75-46e3-b620-00d126855250)
-    (property "Reference" "FID2" (at 259.08 172.72 0)
+    (property "Reference" "FID3" (at 259.08 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Fiducial_0.5mm" (at 259.08 177.8 0)
@@ -5159,7 +5086,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "FID2") (unit 1)
+          (reference "FID3") (unit 1)
         )
       )
     )
@@ -5168,7 +5095,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 104.14 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c337dbb1-bf1d-4c36-b6ec-45e16bd2177d)
-    (property "Reference" "#PWR017" (at 104.14 100.33 0)
+    (property "Reference" "#PWR0104" (at 104.14 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 99.06 0)
@@ -5184,7 +5111,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -5193,7 +5120,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:3.3V") (at 116.84 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd45d91a-4491-435b-9257-52060166e2dc)
-    (property "Reference" "#PWR013" (at 116.84 151.13 0)
+    (property "Reference" "#PWR0115" (at 116.84 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 116.84 142.24 0)
@@ -5209,7 +5136,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -5218,7 +5145,7 @@
   (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 91.44 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6c13d8c-f024-40da-836c-a147a0931071)
-    (property "Reference" "#PWR016" (at 91.44 100.33 0)
+    (property "Reference" "#PWR0110" (at 91.44 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 99.06 0)
@@ -5234,7 +5161,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -5273,7 +5200,7 @@
     (property "Value" "Conn_01x08" (at 191.77 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SparkFun-Connector:1X08" (at 194.31 148.59 0)
+    (property "Footprint" "SparkFun-Connector:1x08" (at 194.31 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 148.59 0)
@@ -5299,7 +5226,7 @@
   (symbol (lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%") (at 73.66 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa351f1f-6b6a-4970-8af3-78bd4a1798fe)
-    (property "Reference" "C2" (at 77.47 58.42 0)
+    (property "Reference" "C1" (at 77.47 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 77.47 60.96 0)
@@ -5325,7 +5252,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -5334,7 +5261,7 @@
   (symbol (lib_id "SparkFun-Resistor:10k_0603") (at 97.79 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fad0339f-4533-479b-93ae-a7d2ab45c845)
-    (property "Reference" "R2" (at 97.79 78.74 0)
+    (property "Reference" "R4" (at 97.79 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 97.79 83.82 0)
@@ -5354,7 +5281,7 @@
     (instances
       (project "SparkFun_Stepper_Motor_Breakout_TC78H670FTG"
         (path "/18844704-0b36-4dc2-9b50-62bac66f474c"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5369,7 +5296,7 @@
     (property "Value" "~" (at 254 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "SparkFun-Aesthetic:ORDERING_INSTRUCTIONS" (at 254 189.23 0)
+    (property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions" (at 254 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 254 185.42 0)
