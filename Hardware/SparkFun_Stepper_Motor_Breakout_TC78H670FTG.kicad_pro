@@ -49,11 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "courtyards_overlap|137380001|113030028|a1edd746-1747-4a79-839d-6c4f54888683|ccaa4a49-87cf-4271-98f2-236f572cfa99",
-        "courtyards_overlap|146719999|95310294|28e0e144-54ee-4870-97c4-b65dfedfd3e0|db8ec27e-b724-45da-91fd-7f4247ae9f6e",
-        "starved_thermal|143250000|105636025|115e1e9e-52f6-4235-9fe7-94efb3034754|13a09896-1ba3-473e-8d2d-0f4374e81148|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
