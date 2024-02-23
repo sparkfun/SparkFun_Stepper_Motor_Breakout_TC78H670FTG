@@ -1,0 +1,12 @@
+2024-02-23 14:39:18,606 - panelizer_logger - INFO - Running Panelizer
+2024-02-23 14:39:18,608 - panelizer_logger - INFO - ['--panelx', '101.600000', '--panely', '114.300000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialstb']
+2024-02-23 14:39:18,611 - panelizer_logger - INFO - PANELIZER START: 2024-02-23T14:39:18.611920
+2024-02-23 14:39:21,177 - panelizer_logger - INFO - 
+START: 2024-02-23T14:39:18.611920
+Board saved by user.
+
+Board: C:/Users/pete.lewis/Documents/GitHub/SparkFun_Stepper_Motor_Breakout_TC78H670FTG/Hardware\Production\SparkFun_Stepper_Motor_Breakout_TC78H670FTG_panelized.kicad_pcb
+Board dimensions: 15.24 x 20.32 mm.
+You can fit 6 x 5 boards on the panel.
+
+2024-02-23 14:39:21,196 - panelizer_logger - INFO - Panelizer complete

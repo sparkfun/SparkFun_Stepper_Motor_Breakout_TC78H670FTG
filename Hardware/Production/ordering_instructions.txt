@@ -1,0 +1,12 @@
+Ordering Instructions:
+Panel dimensions: 107.64 x 117.30 mm.
+Material: TG135-140
+Solder Mask: Red
+Silkscreen: White
+Layers: 4
+Finish: HASL Lead Free
+Thickness: 1.6mm
+2.0oz Outer Layers
+0.5oz Inner Layers
+Minimum track width: 0.25mm (9.84mil)
+Minimum via drill: 0.30mm (12.00mil)

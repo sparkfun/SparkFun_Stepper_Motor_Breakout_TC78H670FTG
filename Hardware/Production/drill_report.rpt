@@ -1,0 +1,25 @@
+Drill report for SparkFun_Stepper_Motor_Breakout_TC78H670FTG_panelized.kicad_pcb
+Created on 2/23/2024 3:38:17 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'SparkFun_Stepper_Motor_Breakout_TC78H670FTG_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.305mm  0.0120"  (990 holes)
+    T2  1.016mm  0.0400"  (480 holes)
+
+    Total plated holes count 1470
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
