@@ -4,9 +4,15 @@ ehthumbs.db
 
 #KiCad Backup file directory
 *-backups
+*.kicad_prl
 fp-info-cache
-*auto_saved_files#
-*_autosave-*
+~*.lck
+*-bak
+*-backups
+*-cache*
+*-bak*
+_autosave*
+\#auto_saved_files\#
 *kicad_sch-bak
 
 #Eagle Backup files
